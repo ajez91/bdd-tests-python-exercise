@@ -76,6 +76,7 @@ class Plagiator(Googlator):
             else:
                 print("ZDANIE Z AJU.PL: "+ zdanie_aju + "\n" + "ZDANIE Z GOOGLE: " + self.lista_google[indeks] + "\n" + "WYNIK: BRAK PLAGIATU")
 
+
 def main():
     P = Pobierator()
     A = Akapity()
@@ -92,5 +93,5 @@ def main():
             googlanko = G.span_to_text(szukanie)
             PL.text_to_text(zdanie, googlanko)
 
-if __name__ =='__main__':
+if __name__ == '__main__' :
     main()
