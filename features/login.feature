@@ -16,7 +16,7 @@ and check my e-mails
 
     Examples:
     | username | password |
-    | autografy_autografy@op.pl | autografy666 |
+    | autografy_autografy@op.pl | ******** |
     | janek123@op.pl | haslo2 |
 
   Scenario Outline: Log in with invalid data
@@ -26,5 +26,5 @@ and check my e-mails
 
     Examples:
     | username | password |
-    | autografy_autografy@op.pl | autografy666 |
+    | autografy_autografy@op.pl | ******* |
     | janek123@op.pl | haslo2 |
